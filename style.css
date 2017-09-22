@@ -1,0 +1,72 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #001f3f;
+  color: #479dfe;
+  user-select: none;
+  text-align: center;
+}
+
+.title {
+  margin-top: 1vh;
+  font-size: 5vh;
+}
+
+#board {
+  margin: 3vh auto;
+  border: 0.1rem solid #001f3f;
+}
+
+.transition {
+  transition-duration: 0.5s;
+}
+
+.square {
+  font-family: 'Pacifico', cursive;
+  color: #479dfe;
+  font-size: 10vh;
+  border: 0.1rem solid #479dfe;
+  vertical-align: middle;
+
+  display: inline-block;
+  width: 15vh;
+  height: 15vh;
+  line-height: 15vh;
+  margin: 1vh;
+  padding: 1vh;
+}
+
+.square:hover {
+  border: 0.1rem solid #7fdbff;
+  color: #7fdbff;
+}
+
+#reset {
+  display: none;
+}
+
+#endGame {
+  display: none;
+  margin: 2vh 0;
+  font-size: 1vh;
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  border: 1px solid #479dfe;
+  color: #479dfe;
+  background-color: #001f3f;
+  padding: 1vh;
+  margin: 2vh;
+  font-size: 4vh;
+}
+
+.button:hover {
+  border: 1px solid #7fdbff;
+  color: #7fdbff;
+  font-weight: bold;
+}
+
+.button:focus {
+  outline: none;
+}
